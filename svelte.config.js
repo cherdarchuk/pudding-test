@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import adapterStatic from "@sveltejs/adapter-static";
+import adapter from "@sveltejs/adapter-cloudflare";
 import svg from "vite-plugin-svgstring";
 import dsv from "@rollup/plugin-dsv";
 import sveltePreprocess from "svelte-preprocess";
