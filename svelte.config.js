@@ -21,7 +21,7 @@ const preprocess = sveltePreprocess({
 const config = {
 	preprocess,
 	kit: {
-		adapter: adapterStatic(),
+		adapter: adapter(),
 		vite: {
 			resolve: {
 				alias: {
